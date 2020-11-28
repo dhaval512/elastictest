@@ -29,7 +29,7 @@ pipeline{
                 {
                     sh '''
                     eval $(aws ecr get-login --region $AWS_DEFAULT_REGION --profile $AWS_PROFILE | sed "s/-e none //")                    
-                    docker tag myapp:latest $ACCOUNT_NO.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$ECR_REPO:$BUILD_ID                  
+                    docker tag elastic:latest $ACCOUNT_NO.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$ECR_REPO:$BUILD_ID                  
                     docker push $ACCOUNT_NO.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$ECR_REPO:$BUILD_ID   
                     docker rmi elastic:latest        
                     '''
