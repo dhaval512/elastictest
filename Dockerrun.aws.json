@@ -2,11 +2,13 @@
   "AWSEBDockerrunVersion": "2",
   "Image": {
     "Name": "ecr_image",
+
     "Update": "true"
   },
   "Ports": [
     {
-      "ContainerPort": "80"
+      "ContainerPort": "80",
+      "HostPort": 80
     }
   ]
 }
