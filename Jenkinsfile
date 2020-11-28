@@ -7,7 +7,7 @@ pipeline{
         S3_Bucket           = 'elascc'
         JOB_NAME            = 'beanstalk'
         APPLICATION_NAME    = 'mytest'	
-        EB_ENVIRONMENT_NAME = 'mytest-env' 
+        EB_ENVIRONMENT_NAME = 'mytest-env-1' 
         AWS_PROFILE         = 'default'  
    	
     }
