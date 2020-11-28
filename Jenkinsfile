@@ -6,8 +6,8 @@ pipeline{
         ECR_REPO            = 'elastic'
         S3_Bucket           = 'elascc'
         JOB_NAME            = 'beanstalk'
-        APPLICATION_NAME    = 'mytest'	
-        EB_ENVIRONMENT_NAME = 'mytest-env-1' 
+        APPLICATION_NAME    = 'dhaval'	
+        EB_ENVIRONMENT_NAME = 'Dhaval-env' 
         AWS_PROFILE         = 'default'  
    	
     }
