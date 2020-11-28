@@ -4,7 +4,7 @@ pipeline{
         ACCOUNT_NO          = '913211044704'
         AWS_DEFAULT_REGION  = 'us-east-1'
         ECR_REPO            = 'elastic'
-        S3_Bucket           = 'elacc'
+        S3_Bucket           = 'elascc'
         JOB_NAME            = 'beanstalk'
         APPLICATION_NAME    = 'mytest'	
         EB_ENVIRONMENT_NAME = 'mytest-env' 
