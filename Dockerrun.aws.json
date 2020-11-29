@@ -1,14 +1,13 @@
 {
   "AWSEBDockerrunVersion": "2",
   "Image": {
-    "Name": "ecr_image",
+    "Name": "nginx",
 
     "Update": "true"
   },
   "Ports": [
     {
-      "ContainerPort": "80",
-      "HostPort": 80
+      "ContainerPort": "80"
     }
   ]
 }
