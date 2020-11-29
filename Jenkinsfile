@@ -6,8 +6,8 @@ pipeline{
         ECR_REPO            = 'elastic'
         S3_Bucket           = 'elascc'
         JOB_NAME            = 'beanstalk'
-        APPLICATION_NAME    = 'MyApp'	
-        EB_ENVIRONMENT_NAME = 'testing' 
+        APPLICATION_NAME    = 'verify'	
+        EB_ENVIRONMENT_NAME = 'Verify-env' 
         AWS_PROFILE         = 'default'  
    	
     }
